@@ -1,0 +1,43 @@
+**Lecture 1 on September 24th**
+
+**Introduction**
+
+这一讲主要介绍了课程要求以及课程内容大纲。
+
+Contents：
+
+1. Supervised Learning
+
+  目前使用最多的机器学习方法
+  
+  定义：给出数据集，学习其中从输入到输出的映射关系。
+
+  (1) Regression Problem: 输出值是连续的。
+  
+  e.g. 房价预测
+  
+  (2) Classification Problem: 输出值是离散的。
+
+  e.g. 肿瘤诊断
+  
+  SVM: 支持向量机，输入值允许是无穷维数据。
+
+2. Machine Learning Strategy (Learning Theory)
+
+  使得机器学习成为系统性的工程问题，而不是黑魔法(Black Magic)
+
+3. Deep Learning (CS230涉及更多相关内容)
+
+4. Unsupervised Learning
+
+  输出值没有Label，只给出输入信息。
+  
+  e.g. Google News每天爬取新闻内容并将其标注分组。
+  
+  e.g. Cocktail Party问题：用多个录音设备记录overlapped的声音，并以此区分喧哗场合里每一个人的声音。
+
+5. Reinforcement Learning
+
+  e.g. 让机器自由工作，当结果满意时给予积极回应；当结果糟糕时给出消极回应。能够使得机器找到最优策略。
+  
+       多用于游戏等领域。
