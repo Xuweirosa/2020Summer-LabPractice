@@ -1,0 +1,27 @@
+**Lec2-Sep-26-Linear-regression**
+
+这一部分的课程讨论了线性回归问题的算法。
+
+主要涉及到：
+
+1、线性回归问题中hypothesis的形式
+
+2、如何找到hypothesis中的$\theta$
+
+通过Gradient Descent（梯度下降算法）来找到$\theta$
+
+[Algorithm] Batch gradient descent
+- start with some $\theta$
+
+- keep changing $\theta$ to reduce $J(\theta)$
+
+- repeat until convergence
+
+[Alogrithm] Stochastic gradient descent
+
+pros:速度快，大数据集下的效果与Batch gradient descent一样好。
+
+
+3、对于线性回归问题，还有一步解出$\theta$的方法
+
+为了这一部分的证明过程，课程还给出了关于矩阵trace的一些性质说明。
